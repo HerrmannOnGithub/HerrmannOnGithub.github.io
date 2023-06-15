@@ -1,0 +1,29 @@
+body{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    font-family: Verdana, "Segoe UI", Arial, serif;
+    background: rgb(255,250,219);
+    background: linear-gradient(68deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 46%, rgba(255,250,219,1) 100%);
+}
+
+nav{
+    background-color: #282a35;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /*padding: 2% 0 2% 0;*/
+    font-family: Rubik, Verdana, "Segoe UI", Arial, serif;
+}
+
+.navheadlink{
+    border-style: ;
+    padding: 2% 1.5% 2% 1.5%;
+    color: white;
+}

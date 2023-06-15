@@ -1,12 +1,62 @@
+<!-- Der neue HTML Doctype ist der einfachste Doctype den es je gab.-->
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <!-- Auch das meta-Tag zum Zeichensatz wurde vereinfacht.-->
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MochiScripts > Home - programmieren und basteln - </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name=“robots“ content=“index,follow“ />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+          content=
+                  "MochiScripts ist ein Hobby-IT-Blog,
+          der sich auf die neuesten Technologien
+          und Trends im Bereich der Computerprogrammierung
+          und -entwicklung konzentriert.
+          Die Webseite bietet umfassende Anleitungen,
+          Tipps und Tricks für Anfänger und Fortgeschrittene,
+          die sich für die Programmierung interessieren.
+          Der Schwerpunkt liegt auf der Verwendung von HTML, CSS, JavaScript, PHP und Unity,
+          aber es gibt auch Beiträge zu anderen Programmier- und Entwicklungsthemen.
+          ">
+    <link rel="stylesheet" type="text/css" href="style_homepage.css">
+    <link rel="shortcut icon" href="./logo/MochiScripts.svg" sizes="200x200">
 </head>
 <body>
-    Statische Webseite in bearbeitung.
+<main>
+    <cookie-banner>
+        <h1 slot="title">Verwendung von Cookies</h1>
+        <div slot="text">Cookies dienen der grundlegenden Funktion und Analyse der Webseite. Durch die Nutzung der Webseite erklären Sie sich mit unserer Cookie-Richtlinie einverstanden. Weitere Information unter: <a href="datenschutz.html">Datenschutz</a> </div>
+    </cookie-banner>
+    <script defer src="cookie-banner.js"></script>
+  <header id="mainheader">
+     <img id="icon" src="./logo/MochiScripts.svg" alt="MochiScripts" width="10%" height="10%"><!-- Logo/Website-Name am besten als eine h1 nutzen-->
+  </header>
+ 
+  <nav>
+        <a class="navheadlink">HTML</a>
+        <a class="navheadlink">CSS</a>
+        <a class="navheadlink">JAVASCRIPT</a>
+        <a class="navheadlink">PHP</a>
+        <a class="navheadlink">UNITY</a>
+  </nav>
+ 
+  <section>
+    <!-- Ein Abschnitt der Website -->
+    <article></article> <!-- Der Inhalt des Website-Abschnitts -->
+    <footer></footer> <!-- Der Schlussteil des Website-Abschnitts -->
+  </section>
+ 
+  <aside>
+    <!-- Eine Seitenleiste -->
+  </aside>
+ 
+  <footer>
+    <a href="impressum.html">Impressum</a>  <!-- Der Fußbereich -->
+    <a href="datenschutz.html">Datenschutz</a>  <!-- Der Fußbereich -->
+  </footer>
+</main>   
 </body>
 </html>
