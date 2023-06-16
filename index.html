@@ -22,42 +22,63 @@
           Der Schwerpunkt liegt auf der Verwendung von HTML, CSS, JavaScript, PHP und Unity,
           aber es gibt auch Beiträge zu anderen Programmier- und Entwicklungsthemen.
           ">
-    <link rel="stylesheet" type="text/css" href="style_homepage.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" href="./img/LogoWebseite.png" sizes="200x200">
 </head>
 <body>
-<main>
-    <cookie-banner>
-        <h1 slot="title">Verwendung von Cookies</h1>
-        <div slot="text">Cookies dienen der grundlegenden Funktion und Analyse der Webseite. Durch die Nutzung der Webseite erklären Sie sich mit unserer Cookie-Richtlinie einverstanden. Weitere Information unter: <a href="datenschutz.html">Datenschutz</a> </div>
-    </cookie-banner>
-    <script defer src="cookie-banner.js"></script>
-  <header id="mainheader">
-    <img src="img/LogoWebseite.png" alt="Logo" width="10%" height="10%"><!-- Logo/Website-Name am besten als eine h1 nutzen-->
+  <!--
+  <cookie-banner>
+    <h1 slot="title">Verwendung von Cookies</h1>
+    <div slot="text">Cookies dienen der grundlegenden Funktion und Analyse der Webseite. Durch die Nutzung der Webseite erklären Sie sich mit unserer Cookie-Richtlinie einverstanden. Weitere Information unter: <a href="datenschutz.html">Datenschutz</a> </div>
+</cookie-banner>
+<script defer src="cookie-banner.js"></script>
+-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script defer src="function.js" charset="UTF-8"></script>
+  <header>
+    <a href="#" class="logo">Herrmann</a>
+    <ul>
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">Projekte</a></li>
+      <li><a href="#">Über mich</a></li>
+      <li><a href="#">Kontakt</a></li>
+    </ul>
   </header>
- 
-  <nav>
-        <a class="navheadlink">HTML</a>
-        <a class="navheadlink">CSS</a>
-        <a class="navheadlink">JAVASCRIPT</a>
-        <a class="navheadlink">PHP</a>
-        <a class="navheadlink">UNITY</a>
-  </nav>
- 
   <section>
-    <!-- Ein Abschnitt der Website -->
-    <article></article> <!-- Der Inhalt des Website-Abschnitts -->
-    <footer></footer> <!-- Der Schlussteil des Website-Abschnitts -->
+    <img src="img/Wall_Group1.png" id="Wall_Group1">
+    <img src="img/Wall_Group2.png" id="stars">
+    <h2 id="text"></h2>
+    <a href="#sec" id="btn"><b>START</b></a>
+    <img src="img/Wall_Dots.png" id="mountains_behind">
+    <img src="img/Wall_Moon.png" id="mountains_front">
   </section>
- 
-  <aside>
-    <!-- Eine Seitenleiste -->
-  </aside>
- 
+  <div class="sec" id="sec">
+    <h2>Lorem ipsum</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dolorem commodi labore dicta, cupiditate aliquam eaque minus porro repudiandae dignissimos repellat assumenda illo est veniam natus in doloribus sit possimus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae quam vero ut itaque. Laboriosam eveniet id sint explicabo sed, quam, quia odit accusantium nihil, nulla deleniti fuga enim inventore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt soluta delectus quod, odit cupiditate eum beatae natus eos, adipisci iure fugiat sint minus corrupti minima corporis tenetur at eius aliquid!<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dolorem commodi labore dicta, cupiditate aliquam eaque minus porro repudiandae dignissimos repellat assumenda illo est veniam natus in doloribus sit possimus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae quam vero ut itaque. Laboriosam eveniet id sint explicabo sed, quam, quia odit accusantium nihil, nulla deleniti fuga enim inventore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt soluta delectus quod, odit cupiditate eum beatae natus eos, adipisci iure fugiat sint minus corrupti minima corporis tenetur at eius aliquid!<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dolorem commodi labore dicta, cupiditate aliquam eaque minus porro repudiandae dignissimos repellat assumenda illo est veniam natus in doloribus sit possimus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae quam vero ut itaque. Laboriosam eveniet id sint explicabo sed, quam, quia odit accusantium nihil, nulla deleniti fuga enim inventore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt soluta delectus quod, odit cupiditate eum beatae natus eos, adipisci iure fugiat sint minus corrupti minima corporis tenetur at eius aliquid!</p>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
   <footer>
-    <a href="impressum.html">Impressum</a>  <!-- Der Fußbereich -->
-    <a href="datenschutz.html">Datenschutz</a>  <!-- Der Fußbereich -->
+    <a href="impressum.html">Impressum</a>
+    <a href="datenschutz.html">Datenschutz</a> 
   </footer>
-</main>   
+ 
+
+
+  <!--ADDITIONAL-->
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
